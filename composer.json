@@ -1,0 +1,18 @@
+{
+    "name": "havko/imap-auth",
+    "autoload": {
+        "psr-4": {
+            "Havko\\ImapAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Frimm",
+            "email": "martin.frimm@altamira.ai"
+        }
+    ],
+    "require": {
+        "javanile/php-imap2": "^0.1.9",
+      "ext-json": "*"
+    }
+}
